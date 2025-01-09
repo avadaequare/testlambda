@@ -1,0 +1,9 @@
+cd /path/to/your/localfile
+git init
+git status
+git remote add origin https://github.com/avadaequare/testlambda.git --> make sure you have a repo created in git hub.
+git remote -v --> Verify the remote link
+git remote remove origin --> if you want to remove 
+git add . --> if you want to add all files to git repo if you want to add a particular file mention file name. git add filename
+git commit -m ""
+git push -u origin main 
